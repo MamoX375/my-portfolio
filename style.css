@@ -1,0 +1,92 @@
+/* إعدادات عامة */
+body {
+    font-family: 'Tajawal', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ترويسة الموقع */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #222;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.hero h1 {
+    margin: 0 0 10px 0;
+}
+
+/* شبكة عرض المشاريع */
+.projects-grid {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 30px;
+    padding: 0 20px;
+}
+
+/* بطاقة المشروع */
+.project-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+/* تنسيق قسم الأكواد */
+.code-section {
+    background-color: #2d2d2d;
+    color: #f8f8f2;
+    padding: 15px;
+    border-radius: 6px;
+    margin: 15px 0;
+    overflow-x: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+.code-section h3 {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    color: #66d9ef;
+}
+
+/* زر الرابط */
+.btn {
+    display: block;
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* تذييل الصفحة */
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #333;
+    color: white;
+    margin-top: 50px;
+}
